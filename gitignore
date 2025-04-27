@@ -1,0 +1,23 @@
+# Ignore Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+
+# Ignore Lambda deployment packages
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode settings
+.vscode/
+
+# NodeJS / React / Amplify frontend stuff (optional)
+node_modules/
+build/
+dist/
+amplify/
